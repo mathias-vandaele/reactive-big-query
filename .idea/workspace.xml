@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8948577-3d70-420a-8771-f05784972c57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/core/BigQueryReactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/core/BigQueryReactorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/core/BigQueryReactorOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/core/BigQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/core/BigQueryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/core/GoogleAuthorizationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/core/HttpConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/Authorize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/FieldValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/FieldValueList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/QueryOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/Queryable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/ServiceOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/domain/ServiceResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/exceptions/BigQueryConectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/exceptions/BigQueryResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/exceptions/MissingElementFromBigQueryResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryrequest/ConnectionProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryrequest/DefaultDataset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryrequest/FormatOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryrequest/QueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryresponse/F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryresponse/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryresponse/JobCreationReason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryresponse/JobReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryresponse/RequestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryresponse/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/models/bigqueryresponse/Schema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/mathiasvandaele/core/BigQueryReactorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/mathiasvandaele/core/BigQueryReactorUnitTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="yzjknad3" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2c5YJJl1gfc5XNBiR3DA9873PLM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.BigQueryReactorTest.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mathiasvandaele/Documents/Workspace/java/reactive-big-query",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/mathi/Desktop/Workspace/reactive-big-query/src/main/java/dev/mathiasvandaele/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.mathiasvandaele.exceptions" />
+      <recent name="dev.mathiasvandaele.models" />
+      <recent name="dev.mathiasvandaele.interfaces" />
+      <recent name="dev.mathiasvandaele.core" />
+      <recent name="dev.mathiasvandaele.executor" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.mathiasvandaele.core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.mathiasvandaele.Main" />
+      <module name="reactive-big-query" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.mathiasvandaele.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigQueryReactorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reactive-big-query" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.mathiasvandaele.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.mathiasvandaele.core" />
+      <option name="MAIN_CLASS_NAME" value="dev.mathiasvandaele.core.BigQueryReactorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BigQueryReactorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-ab7203c4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8948577-3d70-420a-8771-f05784972c57" name="Changes" comment="" />
+      <created>1707402834793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707402834793</updated>
+      <workItem from="1707402835925" duration="11255000" />
+      <workItem from="1707594874053" duration="38000" />
+      <workItem from="1707594921377" duration="6405000" />
+      <workItem from="1707601395021" duration="44000" />
+      <workItem from="1707601444800" duration="5226000" />
+      <workItem from="1707818636487" duration="3477000" />
+      <workItem from="1707853074355" duration="4753000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/mathiasvandaele/core/HttpConnector.java</url>
+          <line>108</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
