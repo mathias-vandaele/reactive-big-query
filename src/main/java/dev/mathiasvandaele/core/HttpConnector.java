@@ -34,7 +34,7 @@ public class HttpConnector implements Connector {
      * Executes a query with the specified options and authorization.
      *
      * @param requestOption The query options.
-     * @param authorize The authorization details.
+     * @param authorize     The authorization details.
      * @return A Mono emitting a ServiceResult.
      */
     @Override
@@ -45,7 +45,7 @@ public class HttpConnector implements Connector {
                         .uri(String.format("/bigquery/v2/projects/%s/queries", authorize.getProjectId()))
                         .send((httpClientRequest, nettyOutbound) -> nettyOutbound.sendString(this.createQuery(requestOption)))
                         .responseSingle((response, byteBufMono) -> byteBufMono.asString())
-                        .onErrorMap( cause -> new BigQueryConectionException("Something wrong has happened while trying to retrieve the data from the server", cause))
+                        .onErrorMap(cause -> new BigQueryConectionException("Something wrong has happened while trying to retrieve the data from the server", cause))
                         .map(this::createResponse)
                         .map(this::createServiceResult));
     }
@@ -74,6 +74,13 @@ public class HttpConnector implements Connector {
                         .toList()))
                 .map(listStream -> listStream.map(fieldValues -> FieldValueList.builder()
                                 .fieldValues(fieldValues)
+                                .schema(new FieldList(fields.stream()
+                                        .map(field -> FieldDefinition.builder()
+                                                .name(field.getName())
+                                                .type(field.getType())
+                                                .mode(field.getMode())
+                                                .build())
+                                        .toList()))
                                 .build())
                         .toList())
                 .map(fieldValueLists -> BigQueryResult.builder()

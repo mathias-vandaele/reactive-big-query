@@ -10,6 +10,6 @@ Very early working version
 <dependency>
     <groupId>dev.mathias-vandaele</groupId>
     <artifactId>reactive-big-query</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```

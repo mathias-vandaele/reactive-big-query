@@ -6,7 +6,7 @@
 
     <groupId>dev.mathias-vandaele</groupId>
     <artifactId>reactive-big-query</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.2</version>
 
     <name>BigQuery reactive connector</name>
     <description>A library to make BigQuery request using the reactor paradigm</description>

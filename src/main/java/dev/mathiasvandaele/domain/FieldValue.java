@@ -1,6 +1,7 @@
 package dev.mathiasvandaele.domain;
 
 import lombok.Builder;
+import lombok.Getter;
 import lombok.ToString;
 
 /**
@@ -8,7 +9,8 @@ import lombok.ToString;
  */
 @Builder
 @ToString
-public class FieldValue {
+@Getter
+public class FieldValue{
     private String key;
     private String value;
 }

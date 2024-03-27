@@ -11,6 +11,10 @@ import java.util.List;
 @Builder
 @ToString
 public class FieldValueList {
-
     private final List<FieldValue> fieldValues;
+    private final FieldList schema;
+
+    public String get(String name){
+        return fieldValues.get(schema.getNameIndex().get(name)).getValue();
+    }
 }
